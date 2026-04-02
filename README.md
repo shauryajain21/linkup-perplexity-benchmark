@@ -100,8 +100,6 @@ Production queries span 10 categories from real Linkup customer organizations: c
 
 ```
 ├── README.md
-├── Linkup_vs_Perplexity_Benchmark.xlsx
-├── Linkup_vs_Perplexity_Benchmark.csv
 ├── sourced-answer/
 │   ├── queries.json              ← 238 queries (75 SimpleQA + 163 production)
 │   ├── results.json              ← Full answers + grades + costs from all 3 providers
