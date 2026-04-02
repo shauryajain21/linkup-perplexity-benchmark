@@ -88,13 +88,6 @@ Production queries span 10 categories from real Linkup customer organizations: c
 | **Coding Agent** (114q) | **4.349** | 3.972 | 74 / 34 |
 | **End User App** (136q) | **4.678** | 4.632 | 56 / 57 |
 
-### Latency
-
-| Provider | Avg | p50 | p95 |
-|---|---|---|---|
-| Linkup | 2,368ms | 1,730ms | 3,619ms |
-| Perplexity | 546ms | 518ms | 724ms |
-
 ### Eval Method
 - **Judge:** Claude Haiku 4.5
 - **Method:** Pairwise A/B with randomized label assignment (seed=42) to avoid position bias
