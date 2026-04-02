@@ -1,0 +1,164 @@
+query_num,category,query_short,linkup_score,sonar_score,sonar_pro_score,winner,notes
+1,deep_research,ojilifelab.com products,4.0,4.5,4.5,Sonar/Pro,S/SP more specific on EI focus and programs
+2,multilingual,Bukidnon Typica coffee flavors,5.0,4.0,4.5,Linkup,L most detailed flavor profile
+3,cago,LinkedIn domain crawl (test),3.5,3.5,3.5,Tie,All correctly returned no result
+4,top,ASX stocks performance update,4.5,2.5,3.0,Linkup,L gave all stocks; S/SP only found PLS
+5,company,Teekay business activity,4.0,4.5,4.5,Sonar/Pro,S/SP more detailed on fleet and services
+6,extracted,Cloudflare PDF invoice examples,4.5,4.5,4.5,Tie,All gave good Browser Rendering API examples
+7,top,Orange F1 car Medion Aldar,5.0,2.5,2.0,Linkup,L correctly ID'd Spyker 2007; S/SP wrong
+8,deep,Linkup AI startup info,5.0,5.0,4.5,Tie L/S,All good; L had founders in French
+9,non_regression,Linkup LinkedIn post Apr 22,3.0,3.0,3.5,Sonar Pro,SP noted date is in the future
+10,deep,Drishti IAS PDF title,5.0,2.0,2.0,Linkup,L found title; S/SP couldn't fetch
+11,non_regression,LinkedIn verify Jordan Boswell,4.0,3.0,3.0,Linkup,L checked profile data; S/SP said no data
+12,company,Walgreens Boots Alliance,4.0,4.5,4.5,Sonar/Pro,S/SP had 3 business segments
+13,multilingual,Student car rental Kemwel Europe,4.5,4.5,4.5,Tie,All covered Peugeot leases and deals
+14,multilingual,Entrance exams Greater Noida Mohali,4.5,4.0,4.0,Linkup,L listed Sharda SUAT specifically
+15,cago,staianocostruzioni.com,1.5,3.5,4.5,Sonar Pro,L only found domain registered; SP full company info
+16,extracted,Swedish invoice VAT format,4.5,4.5,4.5,Tie,All comprehensive
+17,amo,Cedric Grolet Opera,5.0,5.0,5.0,Tie,All found 35 ave de l'Opera
+18,deep,BCC Venezia Giulia balance sheet,3.0,3.0,3.0,Tie,None found the data
+19,cago,LMRMRA79R49D761Z Italy,3.0,2.0,2.0,Linkup,L said no data (honest); S/SP hallucinated product code
+20,multilingual,UTI home remedies,4.5,4.5,4.0,Tie L/S,SP was overly cautious/refused partially
+21,non_regression,Which LLM are you using,4.0,4.0,4.0,Tie,All answered contextually
+22,deep,Quivr compliance SOC2/ISO/GDPR,3.0,4.5,4.5,Sonar/Pro,S/SP found SOC2 compliance info; L found nothing
+23,company,IMAX classification,4.5,3.0,4.5,Tie L/SP,L and SP correctly said Communication Services
+24,top,Nexbiome CMC expert,4.5,4.0,3.0,Linkup,L found Cyrille Jeune; S found Claudia Thoral; SP couldn't find
+25,cago,LinkedIn verify Noah Curran,3.5,3.5,3.5,Tie,All noted empty LinkedIn data
+26,cago,LinkedIn verify Sergio K,4.0,2.0,4.5,Sonar Pro,L found mismatch; S refused; SP gave 6/10 with analysis
+27,cago,LinkedIn domain crawl (test2),3.5,3.5,3.5,Tie,All correctly returned no result
+28,non_regression,Linkup standard search price,5.0,5.0,5.0,Tie,All found €5/1K
+29,amo,Candelaria 3e Arr,5.0,5.0,5.0,Tie,All found 52 rue de Saintonge
+30,deep,Wienecke's mother's name,5.0,5.0,5.0,Tie,All found Anna Bruun Tordenskjold
+31,top,NBA news past week,4.5,4.5,4.5,Tie,All gave current NBA updates
+32,multilingual,Russian tour program planning,4.5,4.5,4.5,Tie,All comprehensive in Russian
+33,cago,allaboutpdf.com funding,3.5,3.5,3.5,Tie,All correctly said no data
+34,cago,WorkOS fit teros.dev,4.0,3.5,4.0,Tie L/SP,L and SP gave low scores correctly; S gave 0 too harshly
+35,cago,LinkedIn domain crawl (test3),3.5,3.5,3.5,Tie,All correctly returned no result
+36,company,TC BioPharm LinkedIn,4.5,2.0,2.5,Linkup,L found URL; S/SP couldn't
+37,company,LATAM Airlines LinkedIn,4.5,2.5,4.5,Tie L/SP,L and SP found URL; S couldn't
+38,amo,Telescope 2e Arr,3.0,4.5,4.5,Sonar/Pro,S/SP found cafe at 5 rue Villedo; L confused with astronomy club
+39,top,AI developments this week,4.5,4.5,4.5,Tie,All gave recent updates
+40,extracted,Optum locations California,4.5,3.5,3.5,Linkup,L gave ~200 specific number
+41,cago,LinkedIn domain crawl (test4),3.5,3.5,3.5,Tie,All correctly returned no result
+42,multilingual,Arabic mouth ulcer gel treatment,4.5,4.5,4.5,Tie,All gave good Arabic responses with products
+43,cago,LinkedIn find Noah Curran,2.0,3.5,3.0,Sonar,L said not found; S found URL
+44,cago,Cargo LinkedIn profile classify,4.0,2.5,2.5,Linkup,L engaged with classification; S/SP refused
+45,non_regression,Prompt injection test,4.0,4.0,4.0,Tie,All refused appropriately
+46,amo,Liberté 10e Arr,5.0,4.5,4.5,Linkup,L had most detail; all found 39 rue des Vinaigriers
+47,top,Provider health discussion links,4.0,4.0,3.0,Tie L/S,SP refused the medical query
+48,multilingual,Polish RFID library systems,4.5,4.5,4.5,Tie,All gave good Polish-language technical responses
+49,cago,WorkOS fit pocketengineer.ai,3.5,3.5,3.5,Tie,All gave low scores correctly
+50,company,KalVista address,3.5,4.5,4.5,Sonar/Pro,S/SP found 200 Crossing Blvd; L had older NY address
+51,cago,LinkedIn find Samuel Tilton,4.5,2.0,2.0,Linkup,L found URL; S/SP said not found
+52,cago,LinkedIn domain crawl (test5),3.5,3.5,3.5,Tie,All correctly returned no result
+53,cago,173627461 Italy,1.5,2.0,2.0,Sonar/Pro,All hallucinated; none recognized fiscal code
+54,cago,LinkedIn verify Smartfi Admin,4.0,4.0,4.0,Tie,All correctly scored 1/10
+55,extracted,Web search specialist services,4.0,3.0,4.0,Tie L/SP,S couldn't find the topic
+56,company,Canadian Solar classification,4.5,4.5,4.5,Tie,All said Technology correctly
+57,company,Honest Food LinkedIn,3.0,2.5,2.5,Linkup,L found Vital Farms connection; S/SP couldn't
+58,non_regression,Spotify stock price Jan 2025,4.5,2.0,2.0,Linkup,L found $548.55; S/SP only had 2026 data
+59,non_regression,Orthodontie MC20 classification,4.5,3.0,2.5,Linkup,L correctly classified as orthodontic practice (D); SP wrongly said B
+60,company,Amdocs phone number,4.5,4.5,4.5,Tie,All found phone numbers
+61,top,Hermès histoire marque,5.0,5.0,5.0,Tie,All excellent French responses
+62,non_regression,Linkup SIREN address,5.0,5.0,5.0,Tie,All found 28 ave des Pépinières
+63,company,Saia phone number,2.0,5.0,5.0,Sonar/Pro,L found nothing; S/SP found 1-800-765-7242
+64,multilingual,Vitamin C powder Poland,5.0,4.0,4.0,Linkup,L had 6 Polish stores; S/SP fewer
+65,company,Daktronics LinkedIn URL,4.5,4.0,4.0,Linkup,L returned URL; S/SP returned undefined (safe but unhelpful)
+66,non_regression,SPOT stock price Jan 2025 (dup),4.5,2.0,2.0,Linkup,Same as Q58
+67,amo,Le Barav 3e Arr,5.0,5.0,5.0,Tie,All found 6 rue Charles-François Dupuis
+68,multilingual,Noah Balkovec Ottawa Senators,5.0,1.5,4.5,Linkup,L full bio and details; S found nothing; SP good
+69,classification,OG&E LinkedIn URL,4.5,4.0,3.0,Linkup,L returned URL; S returned undefined; SP couldn't
+70,classification,Ironwood Homes LinkedIn URL,4.5,4.0,4.0,Linkup,L returned URL; S/SP returned undefined
+71,cago,WorkOS fit vizcom.co,4.5,4.5,4.0,Tie L/S,L:55 S:72 SP:55 — all reasonable
+72,multilingual,Korean shopping payment window,4.0,4.5,4.5,Sonar/Pro,S/SP more specific on KakaoPay/Naver Pay
+73,amo,Chez l'Ami Jean 7e Arr,5.0,5.0,5.0,Tie,All found 27 rue Malar
+74,company,DXP Enterprises employees,3.5,4.5,4.5,Sonar/Pro,S/SP had exact 3286 number; L gave range
+75,amo,Circus Bakery 1er Arr,4.0,4.5,4.5,Sonar/Pro,All found 63 rue Galande; S/SP noted wrong arrondissement
+76,cago,mafloraclaudiama@gmail.com Italy,2.0,2.5,2.0,Sonar,None could help; S at least found a related tutor
+77,top,AI impact B2B SaaS productivity,4.5,4.5,4.5,Tie,All good with stats
+78,non_regression,Clinica Dental Alfa classification,4.5,3.0,3.5,Linkup,L correctly said dental clinic (D); S wrongly said B
+79,top,Women & Children Primary Care leads,4.5,4.0,1.5,Linkup,L found doctor + JSON; S found contact; SP returned empty
+80,deep,Rock en Seine business activity,4.5,4.5,4.5,Tie,All described festival organizer well
+81,company,Wendy's LinkedIn URL,4.5,4.0,4.0,Linkup,L returned URL; S/SP returned undefined
+82,non_regression,LaForce Inc LinkedIn URL,4.5,4.5,3.0,Tie L/S,L and S found URL; SP couldn't
+83,deep,Which LLM (dup),4.0,4.0,4.0,Tie,Same as Q21
+84,multilingual,PAVATEX insulation panels,4.5,4.5,4.5,Tie,All detailed technical specs
+85,deep,LCIE Bureau Veritas business,4.5,4.5,4.5,Tie,All described certification body well
+86,top,nwcs425.com business model,3.5,4.5,4.0,Sonar,S correctly ID'd manufacturing/production; L said e-commerce
+87,cago,icloud.com,3.5,4.5,4.5,Sonar/Pro,S/SP more comprehensive feature list
+88,cago,LinkedIn domain crawl (test6),3.5,3.5,3.5,Tie,All correctly returned no result
+89,extracted,Web research pricing rates,4.5,4.0,4.5,Tie L/SP,L and SP had better rate ranges
+90,amo,Pink Mamma 10e Arr,4.5,4.0,4.5,Tie L/SP,All noted it's in 9th not 10th; L/SP had address
+91,company,First Horizon Bank address,4.5,5.0,5.0,Sonar/Pro,S/SP had full details with 421 locations
+92,non_regression,Super Bowl LIX teams,5.0,5.0,5.0,Tie,All correct: Eagles vs Chiefs
+93,company,Canadian Solar employees,3.5,4.5,3.5,Sonar,S had exact 17113 with year-over-year comparison
+94,non_regression,Carrefour Market 18e Paris,4.0,4.5,4.5,Sonar/Pro,S/SP found 6-7 with addresses; L found 4
+95,company,10x Genomics LinkedIn,4.5,2.0,2.0,Linkup,L found URL; S/SP couldn't
+96,cago,withheadlight.com funding,5.0,2.5,2.5,Linkup,L found $18M Series A Feb 2024; S/SP couldn't match domain
+97,extracted,jsPDF Cloudflare Swedish chars,4.5,4.0,4.5,Tie L/SP,L had custom font approach; SP had CDN import
+98,deep,Carrefour Market 18e (dup),3.5,4.5,4.5,Sonar/Pro,S/SP found 7; L found 3
+99,company,iRhythm Zio monitors,4.0,4.5,4.0,Sonar,S had website + regional URLs
+100,amo,Ten Belles 10e Arr,5.0,4.5,5.0,Tie L/SP,All found 10 rue de la Grange aux Belles
+101,cago,97853720155 Italy (dup),1.0,3.0,3.0,Sonar/Pro,L no info; S/SP identified as mobile number
+102,cago,LinkedIn domain crawl (test7),3.5,3.5,3.5,Tie,All correctly returned no result
+103,classification,Spanish sports parlay,2.0,3.5,3.5,Sonar/Pro,L said no data; S/SP gave predictions (questionable)
+104,multilingual,GF banana bread recipe,4.5,4.5,4.5,Tie,All gave good recipes
+105,company,Oaktree Specialty Lending class,4.5,4.5,4.5,Tie,All said Financial Services
+106,top,Mennillo Plumbing LinkedIn URL,4.0,3.0,3.0,Linkup,L returned URL; S/SP couldn't find
+107,deep,WebCargo business activity,4.5,4.5,4.5,Tie,All described digital freight platform
+108,amo,Coutume 7e Arr,5.0,4.5,5.0,Tie L/SP,All found 47 rue de Babylone
+109,company,Adamas One Corp address,4.5,5.0,3.5,Sonar,S had full address; SP only had city
+110,amo,Frenchie 2e Arr,5.0,5.0,5.0,Tie,All found 5 rue du Nil
+111,extracted,AMO Nodebench (dup),3.5,3.0,3.0,Linkup,L found AMO-Bench GitHub; S confused with Microsoft AMO
+112,deep,This is a test,3.0,3.5,3.0,Sonar,L/SP minimal; S at least acknowledged
+113,non_regression,Drishti IAS PDF title (dup),5.0,2.0,2.0,Linkup,Same as Q10
+114,amo,Du Pain et des Idees 10e Arr,5.0,5.0,5.0,Tie,All found 34 rue Yves Toudic
+115,extracted,Cloudflare Workers PDF 2024 (dup),4.5,4.0,4.5,Tie L/SP,Same as Q6
+116,cago,LinkedIn domain crawl (test8),3.5,3.5,3.5,Tie,All correctly returned no result
+117,deep,Prompt injection blocker type,3.5,3.5,3.5,Tie,All refused appropriately
+118,cago,LinkedIn domain crawl (test9),3.5,3.5,3.5,Tie,All correctly returned no result
+119,deep,Linkup standard search price,5.0,5.0,5.0,Tie,All found €5/1K
+120,deep,Linkup LinkedIn post Apr 22,3.0,3.0,3.5,Sonar Pro,SP noted future date again
+121,cago,mi-case.com funding,3.5,3.5,3.0,Tie L/S,L/S said no data; SP also couldn't find
+122,extracted,Companies founded 2025 funded $2M+,3.0,3.0,3.0,Tie,All struggled; misinterpreted query as VC firms
+123,top,Tarkett emissions carbone,4.5,4.0,4.5,Tie L/SP,L had 2019 + 2021 scope data
+124,multilingual,Minoterie Sauvin farines Jura,5.0,4.5,4.5,Linkup,L most detailed on sourcing and process
+125,top,LinkedIn Amélie Frantz (dup),3.0,3.0,3.0,Tie,None found profile
+126,multilingual,WCIV Mini Meteorologist contest,4.5,4.5,4.5,Tie,All found entry details and eligibility
+127,deep,Spotify stock Jan 2025,5.0,2.0,4.0,Linkup,L found $548.55; S couldn't; SP found $513.21
+128,multilingual,SMI UK packaging industry,4.5,3.0,4.0,Linkup,L most detailed on 10-year history
+129,cago,LinkedIn domain crawl (test10),3.5,3.5,3.5,Tie,All correctly returned no result
+130,top,NPG transgender representation,4.5,4.5,3.5,Tie L/S,L/S found Sylvia Rivera; SP said not displayed
+131,company,TC BioPharm website + people,5.0,4.5,4.5,Linkup,L found website + LinkedIn profiles of executives
+132,classification,Central Broward Construction LinkedIn,4.5,4.0,3.0,Linkup,L returned URL; S undefined; SP couldn't verify
+133,company,VNUE employees,4.5,3.0,2.0,Linkup,L found 5-8 range; S couldn't; SP confused shares with employees
+134,company,NGL Energy Partners phone,2.0,5.0,5.0,Sonar/Pro,L couldn't find; S/SP found (918) 481-1119
+135,multilingual,History enquiry-based planning,4.5,4.5,4.5,Tie,All good pedagogical guides
+136,cago,LinkedIn find Kei Yasui,4.0,4.0,4.0,Tie,All found LinkedIn URLs
+137,multilingual,Viessmann Vitodens 100W features,4.5,4.5,4.5,Tie,All detailed technical specs
+138,deep,Hakyung Lee arrest date,5.0,3.5,5.0,Tie L/SP,L and SP found September 2022; S couldn't specify month
+139,extracted,General Intuition seed round,5.0,5.0,5.0,Tie,All found founders + $134M + Khosla
+140,amo,Season 1er Arr Paris,3.0,4.5,4.5,Sonar/Pro,L found nothing; S/SP found Season Marais (3e)
+141,non_regression,Prompt injection test (dup),3.5,3.5,3.5,Tie,All refused appropriately
+142,classification,Viking Abrasives classification,4.5,3.5,4.5,Tie L/SP,L/SP correctly said not dental; S less clear
+143,top,Rogo AI description,4.5,4.5,4.5,Tie,All gave good fintech AI description
+144,deep,Mayan Warrior Zonamaco 2025,5.0,3.5,2.5,Linkup,L found party details; S described fair only; SP couldn't find
+145,company,Nature's Miracle employees,2.5,3.5,3.5,Sonar/Pro,L no data; S found 5-9; SP found 11-50
+146,extracted,JPYC stablecoin technical,4.5,4.5,4.5,Tie,All comprehensive on regulation + blockchain
+147,cago,LinkedIn sharebot.net,4.5,3.0,3.0,Linkup,L found URL; S/SP couldn't
+148,amo,Chez Janou 3e Arr,5.0,5.0,5.0,Tie,All found 2 rue Roger Verlomme
+149,non_regression,Mudr Jana Mikulcova classification,4.5,3.5,2.5,Linkup,L correctly classified as dental practice; S/SP less clear
+150,amo,Thanx God I'm a VIP 3e Arr,4.5,5.0,5.0,Sonar/Pro,All found 12 rue de Lancry (10e); S/SP had more details
+151,multilingual,Caliber trailer warranty,4.5,4.5,4.0,Tie L/S,L/S had more warranty specifics
+152,cago,WorkOS fit wispr.ai,4.5,3.5,4.5,Tie L/SP,L:70 SP:72 good; S confused identity
+153,multilingual,German trauma therapy list,4.5,4.5,4.5,Tie,All found GPTG traumakompetenzliste
+154,top,DiBell Group research (dup),4.5,4.5,2.0,Tie L/S,SP refused to access websites
+155,non_regression,Phil's LinkedIn comment,4.5,2.0,2.0,Linkup,L found the actual comment; S/SP couldn't
+156,cago,WorkOS fit cgi.com,4.0,4.0,4.0,Tie,All correctly assessed poor fit
+157,top,JAZZPRO (dup),5.0,2.0,3.5,Linkup,L found SG banking + audio; S failed; SP found audio only
+158,non_regression,This is a test (dup),3.0,3.5,3.0,Sonar,All minimal; S gave some context
+159,multilingual,Polish hobby horse halter DIY,4.5,4.5,4.5,Tie,All gave Polish step-by-step instructions
+160,company,VNUE business activity,4.0,4.5,4.5,Sonar/Pro,S/SP had more on Redacted Optics transition
+161,multilingual,Gruppo Campostano maritime services,4.5,4.5,4.5,Tie,All comprehensive on Italian port services
+162,cago,LinkedIn domain crawl (test11),3.5,3.5,3.5,Tie,All correctly returned no result
+163,top,School website Building Blocks (dup),3.5,2.5,2.5,Linkup,L found GoDaddy site; S/SP couldn't find

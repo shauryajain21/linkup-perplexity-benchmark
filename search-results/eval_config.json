@@ -1,0 +1,46 @@
+{
+  "judge_model": "claude-haiku-4-5-20251001",
+  "method": "pairwise_ab_randomized",
+  "description": "Both providers' search results shown side by side. A/B labels randomly assigned per query (seed=42) to avoid position bias.",
+  "providers": {
+    "linkup": {
+      "endpoint": "POST https://api.linkup.so/v1/search",
+      "params": {"depth": "standard", "outputType": "searchResults"},
+      "pricing": "€0.005/query (flat)"
+    },
+    "perplexity": {
+      "endpoint": "POST https://api.perplexity.ai/search",
+      "params": {"max_results": 20},
+      "pricing": "$5/1K requests (flat, no token costs)"
+    }
+  },
+  "scoring_criteria": [
+    {
+      "name": "relevance",
+      "weight": 0.35,
+      "description": "Do the sources directly address the query? 5 = Highly relevant, exactly on topic | 3 = Mixed | 1 = Off-topic"
+    },
+    {
+      "name": "source_quality",
+      "weight": 0.25,
+      "description": "Are the sources authoritative and trustworthy? 5 = Excellent (official docs, reputable sites) | 3 = Average | 1 = Low quality / spam"
+    },
+    {
+      "name": "coverage",
+      "weight": 0.20,
+      "description": "Is the topic well covered with useful detail? 5 = Comprehensive, multiple angles | 3 = Partial | 1 = Very thin"
+    },
+    {
+      "name": "freshness",
+      "weight": 0.10,
+      "description": "For time-sensitive queries, are sources current? 5 = Up-to-date (or evergreen) | 3 = Somewhat dated | 1 = Severely outdated"
+    },
+    {
+      "name": "agent_usefulness",
+      "weight": 0.10,
+      "description": "How much would this help an AI agent ground its response? 5 = Rich context, directly actionable | 3 = Some useful context | 1 = Not useful"
+    }
+  ],
+  "weighted_score_formula": "0.35×relevance + 0.25×source_quality + 0.20×coverage + 0.10×freshness + 0.10×agent_usefulness",
+  "judge_prompt": "You are an expert search quality evaluator for AI application use cases.\n\nYou will evaluate search results from two providers (A and B) for the same query. Your goal is to assess which provider's results are more useful for an AI agent that needs to answer questions or build software.\n\nRate each provider on these criteria (1–5 scale):\n\n1. **Relevance** (weight: 35%) — Do the sources directly address the query?\n   5 = Highly relevant, exactly on topic | 3 = Mixed | 1 = Off-topic\n\n2. **Source Quality** (weight: 25%) — Are the sources authoritative and trustworthy?\n   5 = Excellent (official docs, reputable sites) | 3 = Average | 1 = Low quality / spam\n\n3. **Coverage** (weight: 20%) — Is the topic well covered with useful detail?\n   5 = Comprehensive, multiple angles | 3 = Partial | 1 = Very thin\n\n4. **Freshness** (weight: 10%) — For time-sensitive queries, are sources current?\n   5 = Up-to-date (or evergreen) | 3 = Somewhat dated | 1 = Severely outdated\n\n5. **AI Agent Usefulness** (weight: 10%) — How much would this help an AI agent?\n   5 = Rich context, directly actionable | 3 = Some useful context | 1 = Not useful\n\nRespond with ONLY valid JSON, no other text:\n{\n  \"A\": {\"relevance\": N, \"source_quality\": N, \"coverage\": N, \"freshness\": N, \"agent_usefulness\": N, \"brief_note\": \"...\"},\n  \"B\": {\"relevance\": N, \"source_quality\": N, \"coverage\": N, \"freshness\": N, \"agent_usefulness\": N, \"brief_note\": \"...\"}\n}"
+}

@@ -1,0 +1,66 @@
+{
+  "judge_model": "claude-opus-4-6",
+  "method": "manual_inline_comparison",
+  "description": "Each query's three answers (Linkup, Sonar, Sonar Pro) reviewed side by side and scored 1-5 on four criteria. Judge sees all three answers but does not know provider identity during scoring.",
+  "dataset": {
+    "total_queries": 238,
+    "simpleqa_queries": 75,
+    "production_queries": 163,
+    "simpleqa_description": "Factual Q&A from OpenAI SimpleQA benchmark with known correct answers. Graded by exact string match (A = exact match, B = 80%+ word overlap, C = 50%+ overlap, F = miss).",
+    "production_sources": ["cago_production", "amo_production", "top_queries", "extracted_queries", "company_research", "multilingual", "non_regression", "deep_research", "classification"]
+  },
+  "providers": {
+    "linkup": {
+      "endpoint": "POST https://api.linkup.so/v1/search",
+      "params": {"depth": "standard", "outputType": "sourcedAnswer"},
+      "pricing": "€0.005/query (flat)"
+    },
+    "perplexity_sonar": {
+      "endpoint": "POST https://api.perplexity.ai/chat/completions",
+      "params": {"model": "sonar", "search_context_size": "low"},
+      "pricing": "$1/M input + $1/M output + $5/1K requests"
+    },
+    "perplexity_sonar_pro": {
+      "endpoint": "POST https://api.perplexity.ai/chat/completions",
+      "params": {"model": "sonar-pro", "search_context_size": "low"},
+      "pricing": "$3/M input + $15/M output + $6/1K requests"
+    }
+  },
+  "scoring_criteria": [
+    {
+      "name": "relevance",
+      "scale": "1-5",
+      "description": "Does the answer address the query directly?"
+    },
+    {
+      "name": "accuracy",
+      "scale": "1-5",
+      "description": "Is the information factually correct and trustworthy?"
+    },
+    {
+      "name": "completeness",
+      "scale": "1-5",
+      "description": "Does the answer cover the key aspects of the query?"
+    },
+    {
+      "name": "usefulness",
+      "scale": "1-5",
+      "description": "Would this answer be practically helpful to the user?"
+    }
+  ],
+  "overall_score": "Holistic 1-5 score based on the four criteria, with accuracy and relevance weighted most heavily.",
+  "results_summary": {
+    "simpleqa_accuracy": {
+      "linkup": "68% (51/75 exact match)",
+      "sonar": "56% (42/75)",
+      "sonar_pro": "53% (40/75)"
+    },
+    "llm_judge_quality": {
+      "linkup": "4.12/5",
+      "sonar": "3.85/5",
+      "sonar_pro": "3.86/5"
+    },
+    "head_to_head_linkup_vs_sonar": "44W / 78T / 31L",
+    "head_to_head_linkup_vs_sonar_pro": "39W / 83T / 28L"
+  }
+}

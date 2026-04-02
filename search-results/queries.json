@@ -1,0 +1,1002 @@
+[
+  {
+    "org": "coding_agent",
+    "query": "3PL warehouse integration EDI 856 ASN 850 PO parsing Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "AI content moderation safety classifier threshold action Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "BIM model viewer Three.js IFC file parse room metadata React"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Braintree recurring billing subscription upgrade prorate credit node SDK"
+  },
+  {
+    "org": "coding_agent",
+    "query": "DocuSign embedded signing ceremony redirect iframe React integration"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Docusign envelope create send status webhook callback Node.js contract signing"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Dwolla ACH transfer verification micro-deposit customer funding source Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Google Calendar API event create attendee invite conflict check Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "HIPAA audit trail database access logging PostgreSQL row level security Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "HIPAA compliant file upload encryption at rest S3 KMS Node.js audit log"
+  },
+  {
+    "org": "coding_agent",
+    "query": "HOA dues invoice generation late fee calculation payment portal Stripe"
+  },
+  {
+    "org": "coding_agent",
+    "query": "IoT device MQTT broker message ingestion time-series InfluxDB Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Medicare eligibility verification real-time API 270 271 EDI Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Meta Conversions API server-side pixel deduplication event match quality Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "OpenAI streaming chat completion SSE React useChat Vercel AI SDK"
+  },
+  {
+    "org": "coding_agent",
+    "query": "OpenTable reservation API availability slot booking webhook Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "PCI DSS SAQ A scope reduction Stripe Elements iFrame tokenization"
+  },
+  {
+    "org": "coding_agent",
+    "query": "PDF report generation tables charts Puppeteer S3 signed URL Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "PTO accrual calculation carry-over policy enforcement calendar integration Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Plaid Link token exchange transaction sync incremental cursor pagination webhook"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Plaid transactions categorization enrichment merchant normalization PostgreSQL"
+  },
+  {
+    "org": "coding_agent",
+    "query": "PostGIS radius search nearest neighbor geography index Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "SCORM xAPI learning record store LRS activity statement Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "SSO SAML 2.0 identity provider metadata Okta Node.js Passport strategy"
+  },
+  {
+    "org": "coding_agent",
+    "query": "SaaS trial conversion dunning sequence Inngest email Stripe webhook"
+  },
+  {
+    "org": "coding_agent",
+    "query": "SendGrid dynamic template versioning test send suppression group Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Shopify webhook order paid fulfillment creation inventory update idempotency"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Square POS webhooks order fulfillment state machine inventory deduction Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Stripe Connect split payment marketplace seller onboarding payout delay escrow Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Stripe billing meter new usage-based pricing API aggregate Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Stripe issuing card spend controls merchant category codes real-time authorization Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Stripe payment element React Native Expo mobile card tokenization"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Stripe tax calculation shipping address validation international e-commerce checkout"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Twilio HIPAA BAA SMS appointment reminder opt-out compliance Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Twilio voice IVR call routing menu DTMF webhook TwiML Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Vercel Edge Config feature flags low latency Next.js middleware read"
+  },
+  {
+    "org": "coding_agent",
+    "query": "WebSocket real-time sensor dashboard threshold alert React recharts"
+  },
+  {
+    "org": "coding_agent",
+    "query": "WhatsApp Business API message template approval send webhook Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "WooCommerce REST API order status sync inventory reservation Node.js webhook"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Xero API bank reconciliation payment match invoice status sync Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Zillow bridge API property listing data sync valuation webhook Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "Zod schema validation server action error mapping React form Next.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "app store review request timing prompt React Native Expo strategy"
+  },
+  {
+    "org": "coding_agent",
+    "query": "appointment reminder SMS email 24h 1h before Inngest Twilio Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "biometric authentication Face ID Touch ID React Native Expo SecureStore"
+  },
+  {
+    "org": "coding_agent",
+    "query": "calendar booking availability slot generation buffer time timezone Next.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "camera barcode QR scanner React Native Vision Camera Node.js lookup"
+  },
+  {
+    "org": "coding_agent",
+    "query": "care coordination referral tracking status closed loop notification Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "change order approval workflow signature audit trail PostgreSQL Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "chargeback dispute evidence automation gather transaction data Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "cold chain temperature monitoring IoT sensor alert threshold Node.js MQTT"
+  },
+  {
+    "org": "coding_agent",
+    "query": "court deadline calendar calculation jurisdiction rules business days Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "crypto payment Coinbase Commerce webhook confirmation Node.js React"
+  },
+  {
+    "org": "coding_agent",
+    "query": "customer segmentation RFM recency frequency monetary PostgreSQL analytics query"
+  },
+  {
+    "org": "coding_agent",
+    "query": "data export CSV XLSX large dataset streaming download Next.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "database seeding deterministic faker data relationships Prisma Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "delivery zone polygon drawing Mapbox draw React save PostgreSQL"
+  },
+  {
+    "org": "coding_agent",
+    "query": "device twin shadow state sync AWS IoT Core Node.js React dashboard"
+  },
+  {
+    "org": "coding_agent",
+    "query": "document ingestion chunking embedding batch upsert pgvector PostgreSQL"
+  },
+  {
+    "org": "coding_agent",
+    "query": "document version control legal redline comparison storage S3 metadata PostgreSQL"
+  },
+  {
+    "org": "coding_agent",
+    "query": "dynamic pricing engine rule evaluation tiered discounts bulk order PostgreSQL"
+  },
+  {
+    "org": "coding_agent",
+    "query": "edge computing data preprocessing filter before cloud upload Node.js MQTT"
+  },
+  {
+    "org": "coding_agent",
+    "query": "email campaign unsubscribe list sync suppression Sendgrid Node.js webhook"
+  },
+  {
+    "org": "coding_agent",
+    "query": "email deliverability SPF DKIM DMARC configuration DNS verification Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "equipment rental availability calendar conflict booking deposit Stripe Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "expense receipt OCR extraction categorization structured data Node.js OpenAI"
+  },
+  {
+    "org": "coding_agent",
+    "query": "feature flag tenant override LaunchDarkly context targeting Next.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "fine-tuned model endpoint fallback retry OpenAI Node.js error handling"
+  },
+  {
+    "org": "coding_agent",
+    "query": "flash sale countdown timer Redis atomic decrement stock limit Node.js React"
+  },
+  {
+    "org": "coding_agent",
+    "query": "geofencing background location trigger React Native Expo TaskManager"
+  },
+  {
+    "org": "coding_agent",
+    "query": "geospatial polygon boundary check point in region PostgreSQL PostGIS"
+  },
+  {
+    "org": "coding_agent",
+    "query": "heatmap data aggregation geographic grid density React Mapbox GL"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are AI-powered security operations centers changing threat detection and response times"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are DAOs and on-chain governance models evolving for organizational decision making"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are ESG reporting standards CSRD ISSB converging and what are compliance timelines"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are QR code menus and contactless payment changing restaurant customer experience"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are brands measuring marketing ROI across channels as attribution becomes harder"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are carbon credit markets evolving for agricultural land use and sequestration"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are central bank digital currencies affecting traditional payment infrastructure in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are climate-related disclosure requirements affecting supply chain sustainability reporting"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are companies approaching AI ethics and responsible AI governance frameworks"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are companies handling DEI program legal risk after recent Supreme Court decisions"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are companies managing technical debt while maintaining velocity in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are consumer health wearables being integrated into clinical workflows and documentation"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are corporate travel policies changing around sustainability and bleisure travel"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are courts handling electronic discovery and AI-generated document review in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are deepfake and synthetic identity fraud techniques evolving in financial services"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are digital therapeutics being reimbursed by Medicare and commercial payers in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are energy management systems using IoT to optimize commercial building efficiency"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are fitness apps managing health data privacy under HIPAA and state laws"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are gaming companies monetizing without loot boxes given regulatory pressure"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are international student enrollment trends affecting university revenue models"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are labor costs and tip credit rules changing restaurant staffing models"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are law firms pricing alternative fee arrangements compared to traditional billable hours"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are music streaming royalty rates changing and what are the current per-stream payouts"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are nearshoring and friendshoring trends changing global supply chain configuration"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are observability costs scaling with cloud infrastructure and what are optimization strategies"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are physical climate risk assessments changing commercial property underwriting"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are port congestion and vessel capacity changes affecting import shipping costs"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are prevailing wage requirements under Davis-Bacon Act affecting federal project bids"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are ransomware attack vectors evolving and what sectors are most targeted in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are remote work patterns affecting office space demand and sublease availability in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are rising construction costs and labor shortages affecting new housing supply"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are rising insurance costs affecting real estate investment returns in flood and wildfire zones"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are tokenization and network tokens changing card-on-file authorization rates"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are tokenized real-world assets changing access to private credit and real estate"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are universities responding to AI-generated work in assessments and academic integrity"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how do 1031 exchange timelines and qualified intermediary rules work in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is AI being integrated into mobile apps and what are the performance constraints"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is AI tutoring affecting student outcomes and the role of human teachers"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is Medicare coverage for remote patient monitoring expanding in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is dynamic pricing being implemented by restaurants and what is consumer reaction"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is dynamic pricing revenue management software changing hotel rate optimization"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is edge AI changing IoT data processing and reducing cloud dependency"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is sleep tracking technology accuracy improving and what clinical validations exist"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is telehealth adoption stabilizing post-pandemic and what regulations are changing"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is the 21st Century Cures Act information blocking rule affecting EHR interoperability"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is the FTC click-to-cancel rule affecting subscription e-commerce businesses in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is the IoT device lifecycle management challenge affecting enterprise deployments"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is the extended time to IPO affecting employee stock option tax planning"
+  },
+  {
+    "org": "coding_agent",
+    "query": "in-app purchase StoreKit 2 subscription receipt validation Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "installment plan fixed schedule Stripe payment intents series Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "isochrone travel time polygon visualization Mapbox GL React"
+  },
+  {
+    "org": "coding_agent",
+    "query": "job costing labor material overhead allocation PostgreSQL construction"
+  },
+  {
+    "org": "coding_agent",
+    "query": "job posting multi-board syndication Indeed LinkedIn Greenhouse API Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "lease agreement e-signature DocuSign move-in checklist photo upload S3"
+  },
+  {
+    "org": "coding_agent",
+    "query": "legal case management matter numbering conflict check parties search PostgreSQL"
+  },
+  {
+    "org": "coding_agent",
+    "query": "litigation hold legal hold custodian data preservation workflow Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "map clustering marker aggregation supercluster React Mapbox GL JS"
+  },
+  {
+    "org": "coding_agent",
+    "query": "medical coding ICD-10 CPT code suggestion NLP OpenAI Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "mobile app crash reporting Sentry React Native symbolication upload"
+  },
+  {
+    "org": "coding_agent",
+    "query": "multi-currency ledger accounting foreign exchange gain loss PostgreSQL double entry"
+  },
+  {
+    "org": "coding_agent",
+    "query": "optimistic update React Query mutation rollback error boundary pattern"
+  },
+  {
+    "org": "coding_agent",
+    "query": "parent teacher communication portal real-time messaging Socket.io Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "patient portal SSO health system SMART on FHIR OAuth2 Next.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "payment link one-time donation variable amount Stripe checkout Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "pivot table aggregation dynamic grouping PostgreSQL crosstab Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "predictive maintenance anomaly detection rolling statistics Node.js PostgreSQL"
+  },
+  {
+    "org": "coding_agent",
+    "query": "price comparison engine competitor scraping normalized product match Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "product search Elasticsearch fuzzy matching faceted filters pagination Next.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "proration credit note mid-cycle plan change Stripe invoice Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "push notification FCM APNs topic subscription segmented send Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "push notification rich media action button deep link React Native FCM"
+  },
+  {
+    "org": "coding_agent",
+    "query": "real-time inventory reservation optimistic lock PostgreSQL concurrent checkout race condition"
+  },
+  {
+    "org": "coding_agent",
+    "query": "recurring event RRULE expansion exception handling PostgreSQL Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "rent payment Stripe ACH recurring subscription landlord payout split Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "restaurant inventory depletion recipe costing ingredient yield Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "return merchandise authorization RMA workflow state machine email notification Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "returns reverse logistics label generation refund trigger Stripe Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "role-based access control permission matrix policy enforcement Next.js middleware"
+  },
+  {
+    "org": "coding_agent",
+    "query": "route optimization traveling salesman nearest neighbor heuristic Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "self-serve onboarding wizard step completion progress persist PostgreSQL React"
+  },
+  {
+    "org": "coding_agent",
+    "query": "store locator radius filter sort distance React Mapbox Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "subcontractor bid comparison leveling scope gap analysis PostgreSQL"
+  },
+  {
+    "org": "coding_agent",
+    "query": "subrogation recovery tracking status workflow PostgreSQL notification Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "tRPC infinite scroll cursor pagination React Query Next.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "table management floor plan seat assignment reservation conflict React"
+  },
+  {
+    "org": "coding_agent",
+    "query": "tax form 1099-K threshold tracking payment processor reporting Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "team seat license enforcement concurrent session limit Redis Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "telemedicine video session recording consent HIPAA compliant storage Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "terms of service version history consent capture user acceptance PostgreSQL Node.js"
+  },
+  {
+    "org": "coding_agent",
+    "query": "video transcription Whisper API chapter segmentation timestamp React player"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the best practices for crypto tax reporting cost basis methods in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the best practices for managing online travel agency OTA commission costs"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the best practices for scope 3 supply chain emissions measurement and reduction"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current Amazon fulfillment fee changes and how do they affect seller margins"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current Google algorithm update impacts on e-commerce SEO rankings"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current HIPAA penalties for data breaches and how are enforcement trends changing"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current SaaS valuation multiples and how are they trending in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current best practices for IoT network security segmentation and monitoring"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current best practices for email marketing deliverability after Gmail changes"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current best practices for identity and access management in hybrid cloud environments"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current challenges in restaurant supply chain and food cost management"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current challenges with prior authorization automation in US health insurance"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current challenges with volunteer management technology and engagement"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current compute cost trends for LLM inference and fine-tuning in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current developments in microlearning and bite-sized content effectiveness"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current export market opportunities and trade barriers for US agricultural products"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current generative AI adoption rates by industry and use case in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in EdTech funding and which segments are growing fastest"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in construction material costs and lead times for 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in corporate sustainability target setting and verification"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in cross-platform mobile development React Native versus Flutter"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in industrial real estate demand driven by nearshoring"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in no-code low-code platform adoption for enterprise applications"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in nonprofit technology adoption and digital transformation"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in sports media rights deals and streaming fragmentation"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in warehouse automation robotics adoption and ROI timelines"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in wearable fitness technology and health data integration"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest CMS reimbursement changes for telehealth services in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest NIST cybersecurity framework 2.0 changes and implementation guidance"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest NLRB decisions affecting gig worker classification and organizing rights"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest OSHA construction safety regulations and enforcement priorities"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest developments in Matter smart home protocol adoption"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest developments in SEC cybersecurity disclosure requirements for public companies"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest developments in competency-based education and credential recognition"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest developments in construction technology BIM digital twin adoption"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest developments in food traceability blockchain and supply chain transparency"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest developments in grant management software and foundation reporting"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest developments in litigation funding and third-party investment in lawsuits"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest developments in podcast monetization and subscription platform growth"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest fraud prevention techniques used by payment processors in 2025"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest short-term rental regulations affecting Airbnb hosts in major cities"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest trends in coding bootcamp outcomes and employer partnerships"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest trends in data mesh and data product ownership in large organizations"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the latest trends in sports analytics and performance technology adoption"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the security requirements for patient portal apps under HIPAA and HITECH"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of EV charging infrastructure investment and utilization rates"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of ambient clinical documentation AI tools and EHR integration"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of autonomous trucking regulation and commercial deployment"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of cause marketing partnerships between brands and nonprofits"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of commercial real estate loan maturities and refinancing challenges"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of crop insurance markets and government subsidy programs"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of crypto exchange regulation after FTX and what changed"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of influencer marketing regulation and FTC disclosure requirements"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of mental health app regulation and evidence requirements"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of non-compete agreement enforcement after FTC rule challenges"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of non-solicitation agreement enforceability after FTC actions"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of progressive web app adoption versus native app development"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of restaurant reservation platform competition OpenTable Resy Yelp"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of retail media networks and how are brands allocating budgets"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are cellular IoT technologies 5G NB-IoT LTE-M changing asset tracking applications"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are digital nomad visa programs evolving and what countries offer the best terms"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is biometric travel document technology changing airport passenger experience"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the best practices for AI model evaluation and benchmarking for enterprise use cases"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the best strategies for patient engagement and reducing no-show rates in healthcare"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current best practices for restaurant technology stack POS online ordering integration"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of student loan refinancing market and interest rate outlook"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are FinOps practices evolving for cloud cost optimization in multi-cloud environments"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are carbon markets and voluntary offset pricing evolving after integrity controversies"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are startup founders navigating down rounds and anti-dilution protection clauses"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is AI being used in nonprofit program evaluation and impact measurement"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current challenges with interoperability of wearable health data and EHRs"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in mental health parity enforcement and insurer compliance"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of on-premise LLM deployment versus cloud API for sensitive data"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is the developer tools market consolidating and what are the leading DevOps platform trends"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of sustainable travel certification and consumer demand"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are consumers changing return behavior and what are retailers doing to reduce return rates"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is the SECURE 2.0 Act changing 401k auto-enrollment and employer match requirements"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current interchange fees for credit card processing and how do they vary by card type"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current trends in executive compensation clawback policies after SEC rules"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of open banking APIs in the US compared to Europe's PSD2"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how is AI-generated content affecting search engine ranking and content marketing strategy"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what are the current best practices for mobile app accessibility compliance WCAG"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of AI startup funding and which sectors are attracting capital"
+  },
+  {
+    "org": "end_user_app",
+    "query": "what is the current state of NFT market recovery and utility-based token models"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are AI coding assistants affecting software developer productivity and team sizing"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are allergen disclosure regulations changing menu labeling requirements for restaurants"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are companies handling intellectual property and copyright risk in AI training data"
+  },
+  {
+    "org": "end_user_app",
+    "query": "how are companies navigating the tension between AI productivity tools and worker privacy"
+  }
+]
