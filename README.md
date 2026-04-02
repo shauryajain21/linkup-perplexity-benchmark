@@ -100,16 +100,38 @@ Production queries span 10 categories from real Linkup customer organizations: c
 
 ```
 ├── README.md
+├── requirements.txt
+├── .env.example
 ├── sourced-answer/
 │   ├── queries.json              ← 238 queries (75 SimpleQA + 163 production)
 │   ├── results.json              ← Full answers + grades + costs from all 3 providers
 │   ├── llm_judge_scores.csv      ← Per-query quality scores (163 production queries)
-│   └── eval_config.json          ← Eval prompt, model, criteria, provider config
+│   ├── eval_config.json          ← Eval prompt, model, criteria, provider config
+│   ├── run_benchmark.py          ← Script to fetch sourced answers from both providers
+│   └── run_judge.py              ← Script to run Claude Opus LLM judge
 └── search-results/
     ├── queries.json              ← 250 queries (coding agent + end user app)
     ├── search_results_raw.json   ← Full search results from both providers
     ├── llm_judge_scores.json     ← Pairwise judge scores with per-criterion breakdown
-    └── eval_config.json          ← Eval prompt, model, criteria, weights
+    ├── eval_config.json          ← Eval prompt, model, criteria, weights
+    ├── run_benchmark.py          ← Script to fetch search results from both providers
+    └── run_judge.py              ← Script to run Claude Haiku pairwise judge
+```
+
+## Replication
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env
+# Fill in API keys
+
+# Part 1: Sourced answers
+python sourced-answer/run_benchmark.py    # Fetch answers
+python sourced-answer/run_judge.py        # Run LLM judge
+
+# Part 2: Search results
+python search-results/run_benchmark.py    # Fetch search results
+python search-results/run_judge.py        # Run LLM judge
 ```
 
 ## Key Findings
