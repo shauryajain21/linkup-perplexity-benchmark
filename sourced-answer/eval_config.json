@@ -1,7 +1,7 @@
 {
   "judge_model": "claude-opus-4-6",
-  "method": "manual_inline_comparison",
-  "description": "Each query's three answers (Linkup, Sonar, Sonar Pro) reviewed side by side and scored 1-5 on four criteria. Judge sees all three answers but does not know provider identity during scoring.",
+  "method": "llm_as_judge",
+  "description": "Each query's three answers evaluated using Claude Opus 4.6 as judge, scoring each answer on four criteria.",
   "dataset": {
     "total_queries": 238,
     "simpleqa_queries": 75,
@@ -26,6 +26,7 @@
       "pricing": "$3/M input + $15/M output + $6/1K requests"
     }
   },
+  "judge_prompt": "You are an expert evaluator of AI search engine responses. Given a user query and an AI-generated answer, rate the answer on the following criteria:\n\n1. **Relevance** (1-5): Does the answer address the query directly?\n   5 = Directly addresses the query | 3 = Partially relevant | 1 = Off-topic\n\n2. **Accuracy** (1-5): Is the information factually correct and trustworthy?\n   5 = Verifiably correct | 3 = Mostly correct with minor issues | 1 = Contains significant errors or hallucinations\n\n3. **Completeness** (1-5): Does the answer cover the key aspects of the query?\n   5 = Comprehensive coverage | 3 = Covers some aspects | 1 = Missing critical information\n\n4. **Usefulness** (1-5): Would this answer be practically helpful to the user?\n   5 = Immediately actionable | 3 = Somewhat helpful | 1 = Not useful\n\nProvide an overall score (1-5) as a holistic assessment, weighted most heavily toward accuracy and relevance.",
   "scoring_criteria": [
     {
       "name": "relevance",
